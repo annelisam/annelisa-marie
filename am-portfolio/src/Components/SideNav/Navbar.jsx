@@ -11,7 +11,7 @@ import "./Navbar.css";
 
 const NavMenu = () => (
     <SideNav
-        className='sidenav-fixed show-on-large'
+        fixed
         >
         <div className="profile-info center-align">
         <img src="http://via.placeholder.com/100x100" className="circle" />
