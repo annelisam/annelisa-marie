@@ -1,0 +1,17 @@
+.profile-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.collapsible-header {
+    display: block;
+    margin-bottom: 0;
+}
+.collapsible-body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.collapsible-body li a {
+    padding: 0 23.5px 0 31px;
+    line-height: 44px;
+}
