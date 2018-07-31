@@ -11,7 +11,7 @@ import "./Navbar.css";
 
 const NavMenu = () => (
     <SideNav
-        fixed
+        fixed slide-out
         >
         <div className="profile-info center-align">
         <img src="http://via.placeholder.com/100x100" className="circle" />
@@ -21,7 +21,7 @@ const NavMenu = () => (
         <li className="no-padding">
             <ul className="collapsible" data-collapsible="expandible">
                 <li>
-                    <div className="collapsible-header" href="#">about</div>
+                    <div className="collapsible-header" href="/about">about</div>
                 </li>
                 <li>
                     <div className="collapsible-header">work</div>
@@ -41,6 +41,7 @@ const NavMenu = () => (
                 </li>
         </ul>
         </li>
+
 
 
     </SideNav>
